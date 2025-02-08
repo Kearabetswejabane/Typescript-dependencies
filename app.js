@@ -1,4 +1,5 @@
 "use strict";
-console.log('vhudi');
-let age = 10;
-const object = {};
+const button = document.querySelector('button');
+button === null || button === void 0 ? void 0 : button.addEventListener('click', () => {
+    console.log('clicked');
+});

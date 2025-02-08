@@ -1,3 +1,5 @@
-console.log('vhudi');
-let age =10;
-const object = {};
+const button = document.querySelector('button');
+
+button?.addEventListener('click',()=>{
+    console.log('clicked')
+});
