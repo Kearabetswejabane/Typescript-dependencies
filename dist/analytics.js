@@ -1,2 +1,7 @@
 "use strict";
-console.log('sending data..');
+let logged;
+function sendAnalytics(data) {
+    console.log('data');
+    logged = true;
+}
+sendAnalytics('The data');
